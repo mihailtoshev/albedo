@@ -90,7 +90,7 @@ export const MakePaymentModal = ({
       const error = e as GenericError;
       setError(error.toString());
       setIsSubmitInProgress(false);
-    }
+    };
   };
 
   // 🌎 Render UI
